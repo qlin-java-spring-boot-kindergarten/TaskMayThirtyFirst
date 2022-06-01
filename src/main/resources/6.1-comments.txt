@@ -1,0 +1,11 @@
+1. controller没有测试，添加isolation test
+
+2. StudentResponse 里的List 没有类型
+
+3. StudentResponseData 位置请参考dashboard service中的类似设计
+
+4. Controller中不要包含太多逻辑，尽量放到service中组装好
+
+5. 注意分包，现在所有的class全放在一起？
+
+6. 以后不要提交comment掉的代码
